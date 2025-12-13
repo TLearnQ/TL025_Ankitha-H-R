@@ -1,0 +1,534 @@
+[
+    {
+        "filename": "TS29556_Neasdf_DNSContext.yaml",
+        "title": "Neasdf_DNSContext",
+        "version": "1.2.0-alpha.3",
+        "endpoints": [
+            {
+                "path": "/dns-contexts",
+                "method": "POST",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "201",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "411",
+                    "413",
+                    "415",
+                    "429",
+                    "500",
+                    "502",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/dns-contexts/{dnsContextId}",
+                "method": "DELETE",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "204",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "411",
+                    "413",
+                    "415",
+                    "429",
+                    "500",
+                    "502",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/dns-contexts/{dnsContextId}",
+                "method": "PATCH",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "200",
+                    "204",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "411",
+                    "413",
+                    "415",
+                    "429",
+                    "500",
+                    "501",
+                    "502",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/dns-contexts/{dnsContextId}",
+                "method": "PUT",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "204",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "411",
+                    "413",
+                    "415",
+                    "429",
+                    "500",
+                    "501",
+                    "502",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            }
+        ]
+    },
+    {
+        "filename": "TS29557_Naf_ProSe.yaml",
+        "title": "Naf_ProSe API",
+        "version": "1.2.0-alpha.2",
+        "endpoints": [
+            {
+                "path": "/authorize-discovery",
+                "method": "POST",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "200",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "411",
+                    "413",
+                    "415",
+                    "429",
+                    "500",
+                    "502",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/authorization-update-result",
+                "method": "POST",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "204",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "411",
+                    "413",
+                    "415",
+                    "429",
+                    "500",
+                    "502",
+                    "503",
+                    "504",
+                    "default"
+                ],
+                "has_response": true
+            }
+        ]
+    },
+    {
+        "filename": "TS29558_Eecs_ACREvents.yaml",
+        "title": "ACR Events Service",
+        "version": "1.0.0-alpha.2",
+        "endpoints": [
+            {
+                "path": "/subscriptions",
+                "method": "POST",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "201",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "411",
+                    "413",
+                    "415",
+                    "429",
+                    "500",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/subscriptions/{subscriptionId}",
+                "method": "GET",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "200",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "406",
+                    "429",
+                    "500",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/subscriptions/{subscriptionId}",
+                "method": "PUT",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "200",
+                    "204",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "411",
+                    "413",
+                    "415",
+                    "429",
+                    "500",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/subscriptions/{subscriptionId}",
+                "method": "PATCH",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "200",
+                    "204",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "411",
+                    "413",
+                    "415",
+                    "429",
+                    "500",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/subscriptions/{subscriptionId}",
+                "method": "DELETE",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "204",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "429",
+                    "500",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            }
+        ]
+    },
+    {
+        "filename": "TS29558_Eecs_EESRegistration.yaml",
+        "title": "ECS EES Registration_API",
+        "version": "1.2.0-alpha.4",
+        "endpoints": [
+            {
+                "path": "/registrations",
+                "method": "POST",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "201",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "411",
+                    "413",
+                    "415",
+                    "429",
+                    "500",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/registrations/{registrationId}",
+                "method": "GET",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "200",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "406",
+                    "429",
+                    "500",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/registrations/{registrationId}",
+                "method": "PUT",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "200",
+                    "204",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "411",
+                    "413",
+                    "415",
+                    "429",
+                    "500",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/registrations/{registrationId}",
+                "method": "PATCH",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "200",
+                    "204",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "411",
+                    "413",
+                    "415",
+                    "429",
+                    "500",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/registrations/{registrationId}",
+                "method": "DELETE",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "204",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "429",
+                    "500",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            }
+        ]
+    },
+    {
+        "filename": "TS29558_Eees_AppClientInformation.yaml",
+        "title": "EES Application Client Information_API",
+        "version": "1.2.0-alpha.2",
+        "endpoints": [
+            {
+                "path": "/subscriptions",
+                "method": "POST",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "201",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "411",
+                    "413",
+                    "415",
+                    "429",
+                    "500",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/subscriptions/{subscriptionId}",
+                "method": "GET",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "200",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "406",
+                    "429",
+                    "500",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/subscriptions/{subscriptionId}",
+                "method": "PUT",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "200",
+                    "204",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "411",
+                    "413",
+                    "415",
+                    "429",
+                    "500",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/subscriptions/{subscriptionId}",
+                "method": "PATCH",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "200",
+                    "204",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "411",
+                    "413",
+                    "415",
+                    "429",
+                    "500",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            },
+            {
+                "path": "/subscriptions/{subscriptionId}",
+                "method": "DELETE",
+                "auth": [
+                    "None"
+                ],
+                "response_codes": [
+                    "204",
+                    "307",
+                    "308",
+                    "400",
+                    "401",
+                    "403",
+                    "404",
+                    "429",
+                    "500",
+                    "503",
+                    "default"
+                ],
+                "has_response": true
+            }
+        ]
+    }
+]

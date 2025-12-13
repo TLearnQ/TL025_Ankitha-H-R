@@ -1,0 +1,12 @@
+{
+    "total_apis": 5,
+    "total_endpoints": 21,
+    "methods": {
+        "GET": 3,
+        "POST": 6,
+        "PUT": 4,
+        "DELETE": 4,
+        "PATCH": 4
+    },
+    "coverage": 100.0
+}
